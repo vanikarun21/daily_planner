@@ -26,8 +26,11 @@ var timeContainer = document.querySelector(".container")
 for (var i = 0 ; i < 9 ; i++) {
     let hourBlock = document.createElement("div")
     //  create a var for p html element
+    let num = document.createElement("p")
     // create a var for textarea html element
+    let txtArea = document.createElement("textarea")
     // create a var for button 
+    let btn = document.createElement("button")
     // create a variable and then if statement i = 0, then 
     let time = "" 
     if (i === 0 ){
@@ -57,7 +60,11 @@ for (var i = 0 ; i < 9 ; i++) {
         time = "5 pm"
 
     }
-    hourBlock.textContent = time
+
+    // hourBlock.textContent = time
+    num.textContent = time
     // append p,textarea and button appended to hourblock ; then change hourBlock to new p variable / p var.textContent = time
     timeContainer.append(hourBlock)
+    hourBlock.append(num,txtArea,btn)
 } 
+
