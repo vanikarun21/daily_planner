@@ -122,10 +122,30 @@ for (var i = 0; i < 9; i++) {
     // hourBlock.append(num,txtArea,btn)
     // timeContainer.append(hourBlock)
     timeContainer.append(hourRow)
-} 
+
+};
 
 // write code that alllows you to change the color of the text area based on the time of the day WE want the color changed to grey, red and green - double check your code real time 
+// let presentHour = moment().format('hA');
+// let data =  $("<textarea class = 'text col-8 d-flex justify content center'></textarea>");
+
+function changeColor() {
+    let presentHour = moment().format('hA');
+let data =  $("<textarea class = 'text col-8 d-flex justify content center'></textarea>");
+    if (data === presentHour){
+        
+    };
+};
+
+
+ 
+
+
+
+
+
+
 //  getting the values in the text area stored within local storage
-// write code to align the text you input pertains to the hour you added it to 
+// write code to align the text you input pertains to the hour you added it to
 //  make sure the info we are storing in local storage is not detroying the old information
 
