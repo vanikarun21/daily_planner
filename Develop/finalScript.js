@@ -55,31 +55,57 @@ for (var i = 0; i < 9; i++) {
 
 };
 
+var data = 
+$("<textarea>").addClass("past");
 
 
 
 // write code that alllows you to change the color of the text area based on the time of the day WE want the color changed to grey, red and green - double check your code real time 
 // let presentHour = moment().format('hA');
 // let data =  $("<textarea class = 'text col-8 d-flex justify content center'></textarea>");
-let presentHour = moment().format('h a');
-    console.log(presentHour);
+// let presentHour = moment().format('h a');
+//     console.log(presentHour);
 
-    // $("#mainRow").css({"background-color": "yellow"});
+//     // $("#mainRow").css({"background-color": "yellow"});
 
-    // $("textarea").addClass("past");
+//     // $("textarea").addClass("past"); this is just an identifier, this does not have the html tag , refer to line 59
 
-    if ($('#mainRow').text() == presentHour) {
-        $("textarea").css({"background-color": "yellow"});
+//     if ($('#mainRow').text() == presentHour) {
+//         $("textarea").css({"background-color": "yellow"});
 
-    } 
+//     } 
 
 
-  // $("button").click(function(){
+//   $("button").click(function(){
         
-    //     $("div").addClass("present");
-    //   });
+//         $("div").addClass("present");
+//       });
 
 
 //  getting the values in the text area stored within local storage
+
+// cosnt input = document.querySelector("input"),
+//   h2 = document.querySelector("h2");
+
+//   input.addEventListener("keyup", display);
+
+//   function display(){
+//       Headers.innerHTML = input.value;
+//   }
+
+//   localStorage.setItem('keyName', input.value);
+
+
+  
+// cosnt input = document.querySelector("input"),
+// h2 = document.querySelector("h2");
+
+// input.addEventListener("keyup", display);
+
+// function display(){
+//     localStorage.setItem('value', input.value);
+//     h2 = localStorage.getItem("value")
+    
+// }
 // write code to align the text you input pertains to the hour you added it to
 //  make sure the info we are storing in local storage is not detroying the old information
